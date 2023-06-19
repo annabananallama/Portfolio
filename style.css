@@ -85,6 +85,32 @@ h4 {
 #index-puzzles,
 #index-world-clock,
 #index-weather,
-#ndex-cheesecake {
-  height: 100%;
+#index-cheesecake {
+  max-height: 100%;
+}
+
+#gap {
+  padding-top: 2%;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 4%;
+  }
+  #index-puzzles,
+  #index-world-clock,
+  #index-weather,
+  #index-cheesecake {
+    display: none;
+  }
+  h4 {
+    margin-top: 10%;
+  }
+  .primary-link {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  #info {
+    text-align: center;
+  }
 }
