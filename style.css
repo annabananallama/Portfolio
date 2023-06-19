@@ -1,3 +1,39 @@
 .hero {
   text-align: center;
+  margin-top: 140px;
+}
+
+h1 {
+  padding: 40px;
+  font-family: "Chango";
+  font-size: 80px;
+  color: aqua;
+}
+
+h2 {
+  font-family: "Chango";
+  font-size: 40px;
+}
+
+h3 {
+  font-family: "Hepta Slab", serif;
+  font-size: 40px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.btn {
+  background-color: aqua;
+}
+
+.btn-contact {
+  color: black;
+  text-decoration: none;
+  font-family: "Hepta Slab", serif;
+  font-size: 30px;
 }
