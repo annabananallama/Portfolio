@@ -102,6 +102,7 @@ h4 {
   }
   h4 {
     margin-top: 10%;
+    font-size: 30px;
   }
   .primary-link {
     margin-left: 15%;
@@ -113,9 +114,13 @@ h4 {
   h1 {
     padding: 0px;
     text-align: center;
+    font-size: 50px;
   }
   .container {
     margin-bottom: 5%;
+  }
+  h2 {
+    font-size: 30px;
   }
 }
 
