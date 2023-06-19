@@ -4,10 +4,11 @@
 }
 
 h1 {
-  padding: 40px;
+  padding: 20px;
   font-family: "Chango";
   font-size: 80px;
   color: aqua;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -24,11 +25,12 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .btn {
   background-color: aqua;
+  border-radius: 20px;
 }
 
 .btn-contact {
@@ -36,4 +38,53 @@ h3 {
   text-decoration: none;
   font-family: "Hepta Slab", serif;
   font-size: 30px;
+}
+
+p {
+  font-family: "Hepta Slab", serif;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 40px;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: aqua;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+h4 {
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Chango";
+  font-size: 40px;
+}
+
+#info {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 80px;
+}
+
+.primary-link {
+  border-radius: 20px;
+  padding: 20px 15px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  display: block;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "Chango";
+  font-size: 20px;
+}
+
+#index-puzzles,
+#index-world-clock,
+#index-weather,
+#ndex-cheesecake {
+  height: 100%;
 }
