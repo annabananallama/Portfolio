@@ -1,3 +1,9 @@
+:root {
+  --primary-colour: aqua;
+  --primary-font: "Chango";
+  --secondary-font: "Hepta Slab", serif;
+}
+
 .hero {
   text-align: center;
   margin-top: 140px;
@@ -5,19 +11,19 @@
 
 h1 {
   padding: 20px;
-  font-family: "Chango";
+  font-family: var(--primary-font);
   font-size: 80px;
-  color: aqua;
+  color: var(--primary-colour);
   margin-bottom: 20px;
 }
 
 h2 {
-  font-family: "Chango";
+  font-family: var(--primary-font);
   font-size: 40px;
 }
 
 h3 {
-  font-family: "Hepta Slab", serif;
+  font-family: var(--secondary-font);
   font-size: 40px;
 }
 
@@ -29,19 +35,19 @@ h3 {
 }
 
 .btn {
-  background-color: aqua;
+  background-color: var(--primary-colour);
   border-radius: 20px;
 }
 
 .btn-contact {
   color: black;
   text-decoration: none;
-  font-family: "Hepta Slab", serif;
+  font-family: var(--secondary-font);
   font-size: 30px;
 }
 
 p {
-  font-family: "Hepta Slab", serif;
+  font-family: var(--secondary-font);
   text-align: center;
   margin-top: 80px;
   font-size: 40px;
@@ -50,7 +56,7 @@ p {
 .container {
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: aqua;
+  background-color: var(--primary-colour);
   border-radius: 20px;
   padding: 15px;
 }
@@ -58,7 +64,7 @@ p {
 h4 {
   padding-top: 50px;
   text-align: center;
-  font-family: "Chango";
+  font-family: var(--primary-font);
   font-size: 40px;
 }
 
@@ -78,7 +84,7 @@ h4 {
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
-  font-family: "Chango";
+  font-family: var(--primary-font);
   font-size: 20px;
 }
 
@@ -88,6 +94,25 @@ h4 {
 
 #gap {
   padding-top: 2%;
+}
+
+#about-me {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+#about {
+  text-align: center;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile-photo {
+  border-radius: 20px;
 }
 
 @media (max-width: 768px) {
