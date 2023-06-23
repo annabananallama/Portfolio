@@ -4,9 +4,38 @@
   --secondary-font: "Hepta Slab", serif;
 }
 
+.navbar {
+  background-color: aqua;
+  border-bottom: 3px dotted black;
+  font-family: var(--secondary-font);
+}
+
+#nav-name {
+  font-family: var(--primary-font);
+  color: black;
+}
+
+.navbar-brand {
+  padding-left: 30px;
+}
+
+li {
+  padding-left: 25px;
+}
+
+.icon {
+  max-height: 25px;
+  max-width: 25px;
+  margin-right: 20px;
+}
+
+#nav-name {
+  margin-right: 10px;
+}
+
 .hero {
   text-align: center;
-  margin-top: 140px;
+  margin-top: 120px;
 }
 
 h1 {
