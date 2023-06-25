@@ -165,6 +165,17 @@ h4 {
   margin-top: 20px;
 }
 
+.foot {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  font-family: var(--secondary-font);
+  margin-bottom: 3%;
+}
+
 @media (max-width: 768px) {
   body {
     padding: 4%;
