@@ -78,11 +78,12 @@ h3 {
 p {
   font-family: var(--secondary-font);
   text-align: center;
-  margin-top: 80px;
+  margin-top: 60px;
   font-size: 40px;
 }
 
-.container {
+.container,
+#projects {
   margin-top: 50px;
   margin-bottom: 50px;
   background-color: var(--primary-colour);
@@ -91,7 +92,6 @@ p {
 }
 
 h4 {
-  padding-top: 50px;
   text-align: center;
   font-family: var(--primary-font);
   font-size: 40px;
@@ -100,7 +100,7 @@ h4 {
 #info {
   font-size: 20px;
   text-align: left;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .primary-link {
@@ -121,10 +121,6 @@ h4 {
   align-items: center;
 }
 
-#gap {
-  padding-top: 2%;
-}
-
 #about-me {
   font-size: 30px;
   margin-top: 20px;
@@ -136,8 +132,8 @@ h4 {
 
 .profile-image {
   display: flex;
+  margin-top: 70%;
   justify-content: center;
-  align-items: center;
 }
 
 #profile-photo {
@@ -180,6 +176,11 @@ footer {
   margin-top: 2%;
 }
 
+#contact {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 @media (max-width: 768px) {
   body {
     padding: 4%;
@@ -198,9 +199,6 @@ footer {
     margin-left: 15%;
     margin-right: 15%;
   }
-  #info {
-    text-align: center;
-  }
   h1 {
     padding: 0px;
     text-align: center;
@@ -212,10 +210,63 @@ footer {
   h2 {
     font-size: 30px;
   }
+  .profile-image {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  #info {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .work-head h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+  #projects {
+    padding-top: 20%;
+  }
+  #cheese {
+    padding-top: 30%;
+  }
+  .contact-head {
+    padding-bottom: 30px;
+  }
+  #email {
+    font-size: 15px;
+  }
+  #gap {
+    margin-top: 0;
+  }
+  .title {
+    margin-top: 80px;
+  }
+  .w-app {
+    margin-top: 50px;
+  }
+  #puzzle-gap {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .about-cont {
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 992px) {
   .primary-link {
     margin: 5%;
+  }
+  .profile-image {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .work-head h1 {
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
