@@ -179,7 +179,7 @@ footer {
   margin-bottom: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   body {
     padding: 4%;
   }
@@ -194,8 +194,7 @@ footer {
     font-size: 30px;
   }
   .primary-link {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 0 auto;
   }
   h1 {
     padding: 0px;
@@ -207,10 +206,6 @@ footer {
   }
   h2 {
     font-size: 30px;
-  }
-  .profile-image {
-    margin-bottom: 30px;
-    margin-top: 20px;
   }
   #info {
     margin-top: 40px;
@@ -252,19 +247,5 @@ footer {
   }
   .about-cont {
     margin-top: 30px;
-  }
-}
-
-@media (max-width: 992px) {
-  .primary-link {
-    margin: 5%;
-  }
-  .profile-image {
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
-  .work-head h1 {
-    margin-left: 10%;
-    margin-right: 10%;
   }
 }
